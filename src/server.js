@@ -56,7 +56,7 @@ router.get("/get", async (req, res) => {
 app.use("/api", router);
 
 app.use("*", (req, res) => {
-  res.status(200).json({ message: "helllooo" });
+  res.status(200).json({ message: "helllooo FORM AWS" });
 });
 
 const port = 3005;

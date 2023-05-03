@@ -2,6 +2,7 @@ version: "3.4"
 services:
   node-app:
     container_name: node-test
+    image: ahmedghonimdev/node-test
     restart: always
     build:
       context: .
