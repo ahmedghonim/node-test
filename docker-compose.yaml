@@ -8,7 +8,6 @@ services:
       target: prod
     ports:
       - 3005:3005
-    command: npm insatll && npm run dev
     depends_on:
       - mongo
       - redis
