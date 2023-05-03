@@ -11,7 +11,7 @@ services:
     volumes:
       - .:/app
     depends_on:
-      - postgres
+      - mongo
       - redis
   mongo:
     image: mongo
